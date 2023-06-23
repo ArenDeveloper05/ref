@@ -1,0 +1,13 @@
+.content {
+  border: solid 8px;
+  flex-grow: 1;
+  background-color: antiquewhite;
+  margin-left: 300px;
+  &-showcase,
+  &-services,
+  &-designers,
+  &-contact {
+    border: solid;
+    min-height: 500px;
+  }
+}
